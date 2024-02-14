@@ -1,6 +1,5 @@
 const { Pool } = require('pg');
 
-// Create a PostgreSQL connection pool
 
 require("dotenv").config();
 const pool = new Pool({
